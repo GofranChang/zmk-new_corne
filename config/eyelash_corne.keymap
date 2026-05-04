@@ -1,0 +1,3 @@
+#include "../boards/arm/miryoku/custom_config.h"
+#include "../boards/arm/miryoku/mapping/42/eyelash_corne.h"
+#include "../boards/arm/miryoku/miryoku.dtsi"
