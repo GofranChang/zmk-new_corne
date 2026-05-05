@@ -1,9 +1,17 @@
+/*
+*
+* Copyright (c) 2024 The ZMK Contributors
+* SPDX-License-Identifier: MIT
+*
+*/
+
 #include <physical_layouts.dtsi>
 
 / {
-    eyeslash_corne_layout: eyeslash_corne_layout {
+    default_layout: default_layout {
         compatible = "zmk,physical-layout";
-        display-name = "default_layout";
+        display-name = "Layout";
+
         transform = <&default_transform>;
 
         keys  //                     w   h    x    y     rot    rx    r
