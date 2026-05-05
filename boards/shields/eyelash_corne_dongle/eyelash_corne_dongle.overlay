@@ -5,7 +5,7 @@
 *
 */
 
-#include "../../arm/eyelash_corne/eyeslash_corne.dtsi"
+#include "../../arm/eyelash_corne/eyelash_corne.dtsi"
 
 /{
     chosen {
