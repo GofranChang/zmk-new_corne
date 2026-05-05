@@ -35,8 +35,8 @@ layers:
   - C
   - V
   - B
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - $$mdi:arrow-left-bold$$
+  - $$mdi:arrow-down-bold$$
   - N
   - M
   - {t: ',', s: <}
@@ -231,8 +231,8 @@ layers:
   - '&u_to_U_NUM'
   - '&u_to_U_NAV'
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - HOME
+  - PG DN
   - HOME
   - PG DN
   - PG UP
@@ -378,8 +378,8 @@ layers:
   - {t: '2', s: '@'}
   - {t: '3', s: '#'}
   - {t: \, s: '|'}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '1', s: '!'}
+  - {t: '2', s: '@'}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - '&u_to_U_NUM'
   - '&u_to_U_NAV'
