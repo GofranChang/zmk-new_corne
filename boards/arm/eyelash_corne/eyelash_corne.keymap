@@ -3,51 +3,41 @@
 #include "../miryoku/miryoku.dtsi"
 
 &BASE {
-    display-name = "Base";
     sensor-bindings = <&inc_dec_kp LC(LG(RIGHT)) LC(LG(LEFT))>;
 };
 
 &EXTRA {
-    display-name = "Extra";
     sensor-bindings = <&inc_dec_kp LC(LG(RIGHT)) LC(LG(LEFT))>;
 };
 
 &TAP {
-    display-name = "Tap";
     sensor-bindings = <&inc_dec_kp LC(LG(RIGHT)) LC(LG(LEFT))>;
 };
 
 &BUTTON {
-    display-name = "Button";
     sensor-bindings = <&inc_dec_kp LC(LG(RIGHT)) LC(LG(LEFT))>;
 };
 
 &NAV {
-    display-name = "Nav";
     sensor-bindings = <&inc_dec_kp LC(LG(RIGHT)) LC(LG(LEFT))>;
 };
 
 &MOUSE {
-    display-name = "Mouse";
     sensor-bindings = <&inc_dec_kp LC(LG(RIGHT)) LC(LG(LEFT))>;
 };
 
 &MEDIA {
-    display-name = "Media";
     sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
 };
 
 &NUM {
-    display-name = "Num";
     sensor-bindings = <&inc_dec_kp LC(LG(RIGHT)) LC(LG(LEFT))>;
 };
 
 &SYM {
-    display-name = "Sym";
     sensor-bindings = <&inc_dec_kp LC(LG(RIGHT)) LC(LG(LEFT))>;
 };
 
 &FUN {
-    display-name = "Fun";
     sensor-bindings = <&inc_dec_kp LC(LG(RIGHT)) LC(LG(LEFT))>;
 };
