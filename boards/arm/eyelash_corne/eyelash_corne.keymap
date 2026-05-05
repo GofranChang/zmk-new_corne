@@ -2,6 +2,48 @@
 #include "../miryoku/mapping/42/eyelash_corne.h"
 #include "../miryoku/miryoku.dtsi"
 
+/* 其他层：Windows 虚拟桌面切换 */
+&BASE {
+    sensor-bindings = <&inc_dec_kp LC(LG(RIGHT)) LC(LG(LEFT))>;
+};
+
+&EXTRA {
+    sensor-bindings = <&inc_dec_kp LC(LG(RIGHT)) LC(LG(LEFT))>;
+};
+
+&TAP {
+    sensor-bindings = <&inc_dec_kp LC(LG(RIGHT)) LC(LG(LEFT))>;
+};
+
+&BUTTON {
+    sensor-bindings = <&inc_dec_kp LC(LG(RIGHT)) LC(LG(LEFT))>;
+};
+
+&NAV {
+    sensor-bindings = <&inc_dec_kp LC(LG(RIGHT)) LC(LG(LEFT))>;
+};
+
+&MOUSE {
+    sensor-bindings = <&inc_dec_kp LC(LG(RIGHT)) LC(LG(LEFT))>;
+};
+
+&NUM {
+    sensor-bindings = <&inc_dec_kp LC(LG(RIGHT)) LC(LG(LEFT))>;
+};
+
+&SYM {
+    sensor-bindings = <&inc_dec_kp LC(LG(RIGHT)) LC(LG(LEFT))>;
+};
+
+&FUN {
+    sensor-bindings = <&inc_dec_kp LC(LG(RIGHT)) LC(LG(LEFT))>;
+};
+
+/* Media 层：音量调整 */
+&MEDIA {
+    sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
+};
+
 // #include <behaviors.dtsi>
 // #include <dt-bindings/zmk/bt.h>
 // #include <dt-bindings/zmk/keys.h>
