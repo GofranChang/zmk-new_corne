@@ -1,0 +1,9 @@
+/*
+ * Right half as peripheral for dongle builds.
+ */
+
+#include "eyelash_corne.dtsi"
+
+&default_transform {
+    col-offset = <7>;
+};

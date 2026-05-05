@@ -1,0 +1,12 @@
+file_format: "1"
+id: eyelash_corne_dongle
+name: Eyelash Corne Dongle
+url: https://github.com/GofranChang/zmk-new_corne
+type: shield
+requires: [nice_nano_v2]
+features:
+  - keys
+  - studio
+outputs:
+  - usb
+  - ble

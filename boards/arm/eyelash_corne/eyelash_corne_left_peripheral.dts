@@ -1,0 +1,9 @@
+/*
+ * Left half as peripheral for dongle builds.
+ */
+
+#include "eyelash_corne.dtsi"
+
+&left_encoder {
+    status = "okay";
+};
