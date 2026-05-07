@@ -9,7 +9,7 @@
 #include <nordic/nrf52840_qiaa.dtsi>
 #include <dt-bindings/led/led.h>
 
-#include "../../../eyelash_corne_info.dtsi"
+#include "../../../config/eyelash_corne_info.dtsi"
 
 / {
     model = "eyelash_corne";
