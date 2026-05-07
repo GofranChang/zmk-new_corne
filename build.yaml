@@ -22,7 +22,7 @@ include:
     shield: nice_view
     artifact-name: eyelash_corne_left_for_dongle
 
-  - board: eyelash_corne_peripheral_rightal
+  - board: eyelash_corne_peripheral_right
     shield: nice_view
     artifact-name: eyelash_corne_right_for_dongle
 
