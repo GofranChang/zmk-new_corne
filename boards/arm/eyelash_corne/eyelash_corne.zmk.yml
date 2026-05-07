@@ -15,5 +15,5 @@ outputs:
 siblings:
   - eyelash_corne_left
   - eyelash_corne_right
-  - eyelash_corne_peripheral_left
-  - eyelash_corne_peripheral_right
+  - eyelash_corne_left_peripheral
+  - eyelash_corne_right_peripheral
