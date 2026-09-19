@@ -1,35 +1,36 @@
 #include "../miryoku/custom_config.h"
 #include "../miryoku/mapping/42/eyelash_corne.h"
 #include "../miryoku/miryoku.dtsi"
+#include <dt-bindings/zmk/keys.h>
 
 &{/keymap/BASE} {
     display-name = "Base";
-    sensor-bindings = <&inc_dec_kp LC(LG(RIGHT)) LC(LG(LEFT))>;
+    sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
 };
 
 &{/keymap/EXTRA} {
     display-name = "Extra";
-    sensor-bindings = <&inc_dec_kp LC(LG(RIGHT)) LC(LG(LEFT))>;
+    sensor-bindings = <&inc_dec_kp LEFT RIGHT>;
 };
 
 &{/keymap/TAP} {
     display-name = "Tap";
-    sensor-bindings = <&inc_dec_kp LC(LG(RIGHT)) LC(LG(LEFT))>;
+    sensor-bindings = <&inc_dec_kp LEFT RIGHT>;
 };
 
 &{/keymap/BUTTON} {
     display-name = "Button";
-    sensor-bindings = <&inc_dec_kp LC(LG(RIGHT)) LC(LG(LEFT))>;
+    sensor-bindings = <&inc_dec_kp LEFT RIGHT>;
 };
 
 &{/keymap/NAV} {
     display-name = "Nav";
-    sensor-bindings = <&inc_dec_kp LC(LG(RIGHT)) LC(LG(LEFT))>;
+    sensor-bindings = <&inc_dec_kp LEFT RIGHT>;
 };
 
 &{/keymap/MOUSE} {
     display-name = "Mouse";
-    sensor-bindings = <&inc_dec_kp LC(LG(RIGHT)) LC(LG(LEFT))>;
+    sensor-bindings = <&inc_dec_kp LEFT RIGHT>;
 };
 
 &{/keymap/MEDIA} {
@@ -39,15 +40,15 @@
 
 &{/keymap/NUM} {
     display-name = "Num";
-    sensor-bindings = <&inc_dec_kp LC(LG(RIGHT)) LC(LG(LEFT))>;
+    sensor-bindings = <&inc_dec_kp LEFT RIGHT>;
 };
 
 &{/keymap/SYM} {
     display-name = "Sym";
-    sensor-bindings = <&inc_dec_kp LC(LG(RIGHT)) LC(LG(LEFT))>;
+    sensor-bindings = <&inc_dec_kp LEFT RIGHT>;
 };
 
 &{/keymap/FUN} {
     display-name = "Fun";
-    sensor-bindings = <&inc_dec_kp LC(LG(RIGHT)) LC(LG(LEFT))>;
+    sensor-bindings = <&inc_dec_kp LEFT RIGHT>;
 };
